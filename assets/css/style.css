@@ -163,6 +163,23 @@ button:active{
 }
 
 #clickStatus{
-    width: 30%;
+    width: fit-content;
     text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#clickStatus.thanks{
+    background-color: greenyellow;
+    color:black;
+}
+
+#clickStatus.error{
+    background-color: rgb(159, 17, 17);
+    color:black;
+}
+
+@keyframes status{
+    
 }
